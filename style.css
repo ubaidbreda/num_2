@@ -1,6 +1,48 @@
 body {
   background-color: #31313a;
+  border: 30px solid #28282f;
 }
-.section {
-  height: 100%;
+.nav-boi {
+  padding: 0 10% 0% 10%;
+}
+
+.landing {
+  padding: 15% 10% 15% 10%;
+}
+
+.landing {
+  text-shadow: 0.05em 0 0, #f26b38, -0.025em -0.05em 0 #f0f0f0,
+    0.025em 0.05em 0 #31313a;
+  animation: glitch 500ms infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #f26b38, -0.05em -0.025em 0 #f0f0f0,
+      -0.025em 0.05em 0 #31313a;
+  }
+  14% {
+    text-shadow: 0.05em 0 0 #f26b38, -0.05em -0.025em 0 #f0f0f0,
+      -0.025em 0.05em 0 #31313a;
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 #f26b38, 0.025em 0.025em 0 #f0f0f0,
+      -0.05em -0.05em 0 #31313a;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #f26b38, 0.025em 0.025em 0 #f0f0f0,
+      -0.05em -0.05em 0 #31313a;
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 #f26b38, 0.05em 0 0 #f0f0f0,
+      0 -0.05em 0 #31313a;
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 #f26b38, 0.05em 0 0 #f0f0f0,
+      0 -0.05em 0 #31313a;
+  }
+  100% {
+    text-shadow: -0.025em 0 0 #f26b38, -0.025em -0.025em 0 #f0f0f0,
+      -0.025em -0.05em 0 #31313a;
+  }
 }
