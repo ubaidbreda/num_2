@@ -3,11 +3,21 @@ body {
   border: 30px solid #28282f;
 }
 .nav-boi {
-  padding: 0 10% 0% 10%;
+  padding: 0 15% 0% 15%;
+}
+section {
+  padding-right: 15%;
+  padding-left: 15%;
+  height: 100vh;
+}
+
+.section {
+  height: 100%;
 }
 
 .landing {
-  padding: 15% 10% 15% 10%;
+  display: grid;
+  place-items: center;
 }
 
 .landing {
