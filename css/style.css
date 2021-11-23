@@ -1,18 +1,19 @@
 body {
   background-color: #31313a;
   border: 30px solid #28282f;
+  color: #f26b38;
 }
+
 .nav-boi {
   padding: 0 15% 0% 15%;
+}
+p {
+  color: #28282f;
 }
 section {
   padding-right: 15%;
   padding-left: 15%;
   height: 100vh;
-}
-
-.section {
-  height: 100%;
 }
 
 .landing {
@@ -56,3 +57,5 @@ section {
       -0.025em -0.05em 0 #31313a;
   }
 }
+
+/* timeline */
