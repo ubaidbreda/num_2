@@ -64,13 +64,101 @@
           </div>
         </nav>
       </header>
+      <br />
 
-      <!-- landing -->
-      <section class="landing">
+      <section>
+        <h2><u>Contact Info</u></h2>
+        <br />
+        <br />
+        <br />
         <div class="container">
-          <p class="display-6 fw-bold">Hello Universe I'm</p>
-          <p class="display-1 fw-bold">UBAIDULLAH BREDA</p>
+          <div class="row" style="color: #f26b38">
+            <div class="col">
+              <i class="fas fa-phone"></i>
+              Phone:
+              <p class="text-muted">+27 67 839 8557</p>
+            </div>
+            <div class="col">
+              <i class="far fa-envelope"></i>
+              Email:
+              <p class="text-muted">ubaidbreda@gmail.com</p>
+            </div>
+            <div class="col">
+              <i class="fas fa-map-marker-alt"></i>
+              Location:
+              <p class="text-muted">Michells Plain, Cape Town</p>
+            </div>
+          </div>
         </div>
+        <br />
+        <br />
+        <h2><u>Get in touch</u></h2>
+        <br />
+        <!-- form code -->
+        <form
+          action="https://formspree.io/f/xleakvqo"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="mb-3">
+            <label for="fname" class="form-label text-muted">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="fname"
+              placeholder="John"
+            />
+          </div>
+          <div class="mb-3 muted">
+            <label for="name" class="form-label text-muted">Surname</label>
+            <input
+              type="text"
+              class="form-control"
+              name="Surname"
+              id="lname"
+              placeholder="Doe"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-muted"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              id="exampleFormControlInput1"
+              placeholder="johndoe@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label text-muted"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              name="message"
+              id="exampleFormControlTextarea1"
+              placeholder="hello"
+              rows="3"
+            ></textarea>
+          </div>
+          <input
+            class="btn btn-muted"
+            style="background-color: #f26b38"
+            type="submit"
+            value="Submit"
+          />
+          <input
+            class="btn btn-muted"
+            style="background-color: #f26b38"
+            type="reset"
+            value="Reset"
+          />
+        </form>
       </section>
 
       <!-- footer  -->
