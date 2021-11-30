@@ -7,9 +7,15 @@ body {
 .nav-boi {
   padding: 0 15% 0% 15%;
 }
+
+a:hover {
+  background-color: #f26b38;
+}
+
 p {
   color: #28282f;
 }
+
 section {
   padding-right: 15%;
   padding-left: 15%;
